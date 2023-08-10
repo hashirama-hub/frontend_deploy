@@ -31,11 +31,7 @@ function App() {
       elemAfterInput={<Button isDisabled={!texinput} appearance='primary' onClick={onAddbtnClick}>ADD</Button>}
       value={texinput}
       onChange={onTextInputChange}
-      
       >
-        
-    
-
       </Textfield>
       <TaskToDo todoList={todoList}/>
     </>
