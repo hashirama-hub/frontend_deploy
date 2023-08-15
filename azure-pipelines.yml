@@ -16,6 +16,6 @@ steps:
   displayName: 'Install Node.js'
 
 - script: |
-    npm install
-    npm start
-    # echo "hello world"
+    # npm install
+    # npm start
+    echo "hello world"
